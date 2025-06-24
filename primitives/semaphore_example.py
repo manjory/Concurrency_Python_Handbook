@@ -1,3 +1,9 @@
+"""
+References:
+https://www.delftstack.com/howto/python/python-semaphore/
+https://www.pythontutorial.net/python-concurrency/python-semaphore/
+"""
+
 import logging
 import threading
 import time
@@ -22,3 +28,5 @@ if __name__=="__main__":
 
     for t in threads:
         t.join()
+
+
