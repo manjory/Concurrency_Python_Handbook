@@ -20,8 +20,14 @@ import time
 
 # Subclass threading.Thread and override run() → more like a Runner (Java-style).
 
+"""
+In essence, you have two primary ways to specify what a thread should do:
+Overriding run(): This is useful when the thread needs to maintain its own state or when you want a more object-oriented approach to thread management.
+Using target: This is often simpler for straightforward tasks that can be defined by a standalone function. 
+"""
+
 class MyThread(threading.Thread):
-    def run(self):
+    def run(self):# threading only understands "run" function and looks for it
         return self.run_something()
 
     def run_something(self):

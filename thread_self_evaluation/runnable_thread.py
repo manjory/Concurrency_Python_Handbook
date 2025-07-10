@@ -19,7 +19,11 @@ import time
 
 
 # Pass a function to Thread(target=...) → like a Runnable in Java.
-
+"""
+In essence, you have two primary ways to specify what a thread should do:
+Overriding run(): This is useful when the thread needs to maintain its own state or when you want a more object-oriented approach to thread management.
+Using target: This is often simpler for straightforward tasks that can be defined by a standalone function. 
+"""
 def createThread():
     print("something")
     time.sleep(2)
