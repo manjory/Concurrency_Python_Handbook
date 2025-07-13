@@ -41,7 +41,3 @@ if __name__ == "__main__":
     for t in thread_handler:
         t.join()
 
-
-
-# add a number and print the number before and after. with thread id and thread name, exit
-# wap to add a number to critical section before and after update with thread id

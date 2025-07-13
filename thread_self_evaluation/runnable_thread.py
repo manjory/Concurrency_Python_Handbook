@@ -3,8 +3,8 @@
 1. Write multithreaded function to implement a critical section and show the case of critical section
 2. Write a function to add monitors/locks/semaphore to prevent race condition on critical section
 3. create a function to implement 2 methods reaching out used by 2 threads with same variable used in both methods
-and both method updating the same variable.
-4. implement all kinds of locks read/write, re-interrant locks
+and both method updating the same variable. :addWithThread.py
+4. implement all kinds of locks read/write, re-interrant locks,
 5. difference between async and concurrency and write a code to show the diff and similarity between the two. PRint them
 6. WAP to do a multiprocessing of create a process. End the process and also create a race condition between the process.
 7. Implement a deadlock(necessary and sufficient conditions for deadlock). show necessary and sufficient condition via tests
