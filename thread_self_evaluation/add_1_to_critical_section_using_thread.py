@@ -31,11 +31,10 @@ if __name__ == "__main__":
     thread2=threading.Thread(target=call_function,args=("thread_2",))
     print("thread_1 action start")
     thread1.start()
-    thread1.join()
-    print("thread_1 action ended")
-    print("--------------------------------------")
     print("thread_2 action start")
     thread2.start()
+    thread1.join()
+    print("thread_1 action ended")
     thread2.join()
     print("thread_2 action ended")
 
