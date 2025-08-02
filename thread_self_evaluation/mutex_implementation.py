@@ -5,6 +5,12 @@ The initial balance is 100. If the balance is not enough for a withdrawal,
 the ATM should print "Insufficient balance".
 Use a Lock to ensure that two threads never check or update the balance at the same time.
 
+
+| Concept     | What it is                                                                                                  | Python Example                                        |
+| ----------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **Mutex**   | A low-level lock allowing exclusive access to a critical section.                                           | `threading.Lock()`                                    |
+| **Monitor** | A higher-level construct: an object whose methods are all thread-safe and coordinated via internal locking. | A class that wraps shared data + Lock inside methods. |
+
 """
 import threading
 from threading import Lock

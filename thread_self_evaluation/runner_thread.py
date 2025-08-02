@@ -12,7 +12,7 @@ and both method updating the same variable.
 9. How to build consensus on a multiprocessing system
 10. What is causality
 11. Use futures in asyncio
-12. What are the two paradigms in ashncio
+12. What are the two paradigms in asyncio
 """
 import threading
 import time
